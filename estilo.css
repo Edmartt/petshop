@@ -1,0 +1,78 @@
+body{
+	overflow:auto;
+}
+
+#titulo{
+	background-color:rgba(0,0,0,0.8);
+	color:white;
+	font-style:italic;
+	font-size:32px;
+}
+
+.lista{
+	background-color:darkgreen;
+	list-style-type:none;
+	color:white;
+	font-weight:bold;
+	overflow:hidden;
+	width:100%;
+	padding:10px;
+}
+.lista li{
+	display:inline-block;
+	position:relative;/*Posicion respecto a elemento mismo*/
+	left:250px;/*Desde donde lo distanciamos segun posicion*/
+	margin-left:50px;
+}
+.lista a{
+	text-decoration:none;
+	color:white;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:25px;
+	padding-right:25px;
+}
+.lista a:hover{
+	background-color:white;
+	color:darkgreen;
+	border-radius:20px;
+}
+.texto{
+	margin-left:20px;
+	width:400px;
+	height:200px;
+	overflow:hidden;
+}
+.sidelist{
+	list-style-type:none;
+}
+.panel{
+	float:right;
+	background-color:darkgreen;
+	height:400px;
+	position:relative;
+	bottom:300px;
+}
+.sidelist li{
+	display:block;
+	position:relative;
+	padding-bottom:50px;
+}
+.sidelist a{
+	margin-right:20px;
+	display:block;
+	text-decoration:none;
+	color:white;
+	font-weight:bold;
+	font-size:15px;
+	padding:10px;
+}
+.sidelist a:hover{
+	background-color:white;
+	border-radius:20px;
+	color:darkgreen;
+}
+
+footer{
+	margin-left:20px;
+}
